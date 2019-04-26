@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:32:24.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5331749300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefiTestMeApp.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3195481900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepdefinationWebApp.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Register User",
+        "description": "",
+        "id": "register-user;register-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070076000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user is on the DemoWebShop home page",
+            "match": {
+              "location": "StepdefinationWebApp.the_user_is_on_the_DemoWebShop_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1593122500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters registration details",
+            "match": {
+              "location": "StepdefinationWebApp.the_user_enters_registration_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is registered successfully",
+            "match": {
+              "location": "StepdefinationWebApp.user_is_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register User",
+    "description": "",
+    "id": "register-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/DemoWebShopRegister.feature",
+    "tags": []
+  }
+]
